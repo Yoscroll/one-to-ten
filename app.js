@@ -38,13 +38,14 @@ function animalHouse(num1,num2) {
   count = num1+num2;
   console.log(count);
 }
+animalHouse(1,1);
 if(count>2){
   console.log("we have too many "+animal+"s");
 }
 else{
   console.log("welcome to the club!")
 }
-animalHouse(1,1);
+
 ///////////////////////////////////////////////////////////////////////////////////
 var hero = "ironman";
 function avengersAssemble(avenger){
@@ -72,18 +73,33 @@ else if (lights ==false){
 }
 ///////////////////////////////////////////////////////////////////////////////////
 var carType = "Toyota";
-var color = "black";
-var num = 1;
+var color = "blue";
+var num = 6;//try changing the num to 1
 
-if (carType == "Toyota" && color = "blue"){
-
+if (carType == "Toyota" && color == "blue"){
+  if (num>1){
+    console.log("we have "+num+" "+color+" "+carType+"s");
+  }
+  else if (num==1){
+    console.log("we have "+num+" "+color+" "+carType);
+  }
 }
-else if (carType == "Lamborghini" && color = "red"){
-
+else if (carType == "Lamborghini" && color == "red"){
+  if (num>1){
+    console.log("we have "+num+" "+color+" "+carType+"s");
+  }
+  else if (num==1){
+    console.log("we have "+num+" "+color+" "+carType);
+  }
 }
-else if (carType == "Tesla" && color = "black"){
-
+else if (carType == "Tesla" && color == "black"){
+  if (num>1){
+    console.log("we have "+num+" "+color+" "+carType+"s");
+  }
+  else if (num==1){
+    console.log("we have "+num+" "+color+" "+carType);
+  }
 }
 else{
-  console.log("We don't have any "+color +" "+carType" in stock");
+  console.log("We don't have any "+color +" "+carType+"s in stock");
 }
