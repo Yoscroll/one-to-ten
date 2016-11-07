@@ -17,18 +17,18 @@ else{
 var output=null;
 if (age<18){
   output ="is just beginning";
-  return output;
+  console.log(output);
 }
 else if(age >= 21 && age <=40){
     output="has seen a few battles";
-    return output;
+    console.log(output);
 }
 else if (age >40){
   output = "has lived through many epic battles";
-  return output;
+ console.log(output);
 }
 
-return hero + " is our lovable hero, who "+output+" with "+pronoun+" trusty "+weapon+".";
+console.log(hero + " is our lovable hero, who "+output+" with "+pronoun+" trusty "+weapon+".");
 
 ///////////////////////////////////////////////////////////////////////////////////
 var count = null;
