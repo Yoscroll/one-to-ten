@@ -76,23 +76,7 @@ var carType = "Toyota";
 var color = "blue";
 var num = 6;//try changing the num to 1
 
-if (carType == "Toyota" && color == "blue"){
-  if (num>1){
-    console.log("we have "+num+" "+color+" "+carType+"s");
-  }
-  else if (num==1){
-    console.log("we have "+num+" "+color+" "+carType);
-  }
-}
-else if (carType == "Lamborghini" && color == "red"){
-  if (num>1){
-    console.log("we have "+num+" "+color+" "+carType+"s");
-  }
-  else if (num==1){
-    console.log("we have "+num+" "+color+" "+carType);
-  }
-}
-else if (carType == "Tesla" && color == "black"){
+if (carType == "Toyota" && color == "blue"||carType == "Lamborghini" && color == "red"||carType == "Tesla" && color == "black"){
   if (num>1){
     console.log("we have "+num+" "+color+" "+carType+"s");
   }
